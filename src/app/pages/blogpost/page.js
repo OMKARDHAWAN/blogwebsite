@@ -7,7 +7,7 @@ import Link from "next/link";
 import "./blogpost.css"
 import Head from "next/head";
 export default function Post() {
-    const [searchParams] = useSearchParams();
+    const searchParams = useSearchParams();
     // Check if searchParams has 'get' method
     if (typeof searchParams.get !== 'function') {
         console.error('searchParams.get is not a function');

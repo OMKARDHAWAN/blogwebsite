@@ -1,0 +1,19 @@
+@media (max-width: 420px) {
+  .main{
+    width: 450px;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /* border:2px solid green; */
+  } 
+  .form{
+    position: relative;
+    left: -2rem;
+  }
+  .Link{
+    position: relative;
+    left: 450px;
+    top: -120px;
+  }
+ }

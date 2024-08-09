@@ -1,8 +1,9 @@
-
-
-export default function Home() {
-  return (
-    
-    
-  );
+//app page or common page
+import Landing from "./component/landing/landing"
+export default function page(){
+return(
+    <>
+   <Landing/>
+    </>
+)
 }

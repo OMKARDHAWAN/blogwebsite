@@ -1,0 +1,21 @@
+@media (max-width: 420px) {
+    .main{
+        width: 450px;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     /* border:2px solid green; */
+      }
+      .Link{
+        /* border: 2px solid black; */
+        position: relative;
+        left:5.5rem;
+        top: -1.5rem;
+      }
+      .blog{
+
+        width: 400px;
+      }
+   }

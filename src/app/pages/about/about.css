@@ -1,0 +1,34 @@
+@media (max-width: 420px) {
+    .about{
+       display: flex;
+       width: 400px;
+       position: relative;
+       flex-direction: column;
+       height: 2300px;
+    }
+    .Link{
+        position: relative;
+        top: -20rem;
+    }
+    .aboutimg{
+        display:flex;
+        position: relative;
+        flex-direction: column;
+        top: -18rem;
+
+    }
+    .blob{
+        width: 23rem;
+
+    }
+    .aboutinfo{
+        display:flex;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 400px;
+        color: white;
+        position: relative;
+        top: 10rem;
+    }
+
+   }

@@ -1,0 +1,13 @@
+@media (max-width: 420px) {
+    .section{
+        /* border:2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogcard{
+        background-color: gainsboro;
+        margin: 10px 10px;
+        /* border: 2px solid black; */
+    }
+   }

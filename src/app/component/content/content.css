@@ -1,0 +1,43 @@
+@media (max-width: 420px) {
+  .contentbg{
+    /* background-color: red; */
+    width: 420px;
+    /* border: 2px red solid; */
+    z-index: 0;
+  }
+  .contentword{
+
+    display: flex;
+    flex-direction: column;
+  }
+  .postword,.writeword,.editword{
+    /* border: 2px solid white; */
+          font-size: 5rem;
+          text-align: center;
+        }
+.editword,.postword{
+  position: relative;
+  top: -5rem;
+}
+
+        .paraword{
+          /* border: 2px solid white; */
+          height: 300px;
+          width: 150px;
+          text-align: center;
+          position: relative;
+          top: -5rem;
+         }
+         .contentmain{
+          /* border:2px solid green; */
+          width:400px ;
+         }
+         
+/* .intro-para{
+    
+} 
+  
+    
+    
+  } */
+}

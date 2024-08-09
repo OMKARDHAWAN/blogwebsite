@@ -1,0 +1,18 @@
+@media (max-width: 420px) {
+    .contactbg{
+       width: 100%;
+       height: 800px;
+    }
+    .contact,.username,.useremail,.message{
+        width: 100%;
+    }
+    .contact{
+        position: relative;
+        left: -2rem;
+        top: -5rem;
+    }
+    .contactbtn{
+        width: 100%; 
+    }
+}
+      
